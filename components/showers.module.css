@@ -1,0 +1,151 @@
+.photoIcon {
+  width: 575px;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+  cursor: pointer;
+}
+.steamRoomShowers {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.indulgeInThe {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.textFirst {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 100%;
+}
+.accessibleWashrooms {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.inclusiveDesignsFor {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.textSecond {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.bathroomAdditions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.expandYourComfort {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  display: inline-block;
+  max-width: 100%;
+}
+.textThird {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 100%;
+}
+.sustainableSolutions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.energyEfficiency {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.textFourth {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 100%;
+}
+.showers,
+.text {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  gap: 28px 0;
+  min-width: 425px;
+}
+.showers {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-9xl) var(--padding-3xs)
+    var(--padding-15xl);
+  gap: 0 131px;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1275px) {
+  .photoIcon,
+  .text {
+    flex: 1;
+  }
+  .showers {
+    flex-wrap: wrap;
+    gap: 0 131px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .accessibleWashrooms,
+  .bathroomAdditions,
+  .steamRoomShowers,
+  .sustainableSolutions {
+    font-size: var(--font-size-13xl);
+  }
+  .text {
+    min-width: 100%;
+  }
+  .showers {
+    gap: 0 131px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .accessibleWashrooms,
+  .bathroomAdditions,
+  .steamRoomShowers,
+  .sustainableSolutions {
+    font-size: var(--footer-bold-text-size);
+  }
+  .showers {
+    gap: 0 131px;
+  }
+}

@@ -1,0 +1,155 @@
+.cabinetry {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.experienceTheEpitome,
+.meticulouslyCraftedTo {
+  margin: 0;
+}
+.experienceTheEpitomeContainer {
+  width: 544px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.headAndPara {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.materialSelectionsAndFinish {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.materialSelectionsAndContainer {
+  width: 338px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.collaborationWithDesignExpe {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.collaborationWithDesignContainer {
+  align-self: stretch;
+  position: relative;
+}
+.sustainableSolutions1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.sustainableSolutions {
+  width: 237px;
+  position: relative;
+  display: inline-block;
+}
+.integrationWithExistingDeco {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.integrationWithExistingContainer {
+  width: 329px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.builtInLightingAndAccessor {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.builtInLightingAndContainer {
+  width: 342px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.lowerPoints,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lowerPoints {
+  width: 358px;
+  gap: 10px 0;
+  font-size: var(--footer-further-page-link-size);
+}
+.text {
+  gap: 24px 0;
+}
+.photoIcon {
+  width: 654px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.bathroomsCarpentry {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-37xl) var(--padding-48xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1200px) {
+  .bathroomsCarpentry {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cabinetry {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .bathroomsCarpentry {
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cabinetry {
+    font-size: var(--footer-bold-text-size);
+  }
+  .builtInLightingAndContainer,
+  .collaborationWithDesignContainer,
+  .integrationWithExistingContainer,
+  .materialSelectionsAndContainer,
+  .sustainableSolutions {
+    font-size: var(--text-regular-normal-size);
+  }
+}

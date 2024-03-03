@@ -1,0 +1,173 @@
+.customCabinetry {
+  cursor: pointer;
+}
+.customCabinetry,
+.hiddenRefrigerators {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.upper2 {
+  width: 1440px;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-22xl) var(--padding-18xl);
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+  max-width: 100%;
+}
+.conceptualModel,
+.designPlanning {
+  margin: 0;
+}
+.conceptualModelDesignContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+}
+.button,
+.conceptualModelPlanning,
+.middleButton {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-7xs) var(--padding-4xs);
+  background-color: transparent;
+  width: 93px;
+  border-radius: var(--br-mini);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-chocolate-200);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.conceptualModelPlanning,
+.middleButton {
+  max-width: 100%;
+}
+.conceptualModelPlanning {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: 10px 0;
+}
+.middleButton {
+  width: 1440px;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-6xl) 0;
+  min-width: 576px;
+}
+.underCounter,
+.vacuumPorts {
+  margin: 0;
+}
+.automatedLighting,
+.underCounterVacuumPortsContainer {
+  margin: 0;
+  width: 338px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.automatedLighting {
+  width: 413px;
+}
+.lower2,
+.upper2Parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.lower2 {
+  width: 1440px;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-lg) 0;
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+}
+.upper2Parent {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 2923.8px;
+  left: 0;
+  align-items: center;
+  min-height: 434px;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1050px) {
+  .customCabinetry,
+  .hiddenRefrigerators {
+    font-size: var(--font-size-13xl);
+  }
+  .upper2 {
+    gap: var(--gap-81xl);
+  }
+  .automatedLighting,
+  .conceptualModelDesignContainer,
+  .underCounterVacuumPortsContainer {
+    font-size: var(--font-size-13xl);
+  }
+  .lower2 {
+    gap: var(--gap-81xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .customCabinetry,
+  .hiddenRefrigerators {
+    font-size: var(--footer-bold-text-size);
+  }
+  .upper2 {
+    gap: var(--gap-81xl);
+  }
+  .automatedLighting,
+  .conceptualModelDesignContainer,
+  .underCounterVacuumPortsContainer {
+    font-size: var(--footer-bold-text-size);
+  }
+  .lower2 {
+    gap: var(--gap-81xl);
+  }
+}

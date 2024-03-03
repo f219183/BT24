@@ -1,0 +1,269 @@
+.materialAndMethod {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.text {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bath51Icon {
+  height: 861px;
+  width: 861px;
+  position: relative;
+  object-fit: cover;
+  max-width: 150%;
+  flex-shrink: 0;
+}
+.photo {
+  height: 575px;
+  width: 575px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 575px;
+  max-width: 100%;
+}
+.costSavingInnovations {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.leveragingTheLatest,
+.reducingCostsWith {
+  margin: 0;
+}
+.leveragingTheLatestContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.costEffectiveInnovations {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.materialOptimization {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.selectingCostEffectiveMater,
+.tailoredMaterialChoices {
+  margin: 0;
+}
+.selectingCostEffectiveMaterContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.costEffectiveInnovations1 {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.localExpertiseGlobal {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.customMethodsAnd,
+.maximizeLocalEfficiency {
+  margin: 0;
+}
+.customMethodsAndContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.text1,
+.textFirst {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textFirst {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.text1 {
+  width: 664px;
+  justify-content: center;
+}
+.expertiseMeetsInnovation {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.cuttingEdgeTechniquesTailo,
+.experienceAndInnovation {
+  margin: 0;
+}
+.experienceAndInnovationContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.textFirst1 {
+  width: 664px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.efficiencyWithoutCompromise {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.costEffectiveWithoutCuttin,
+.qualityAndValue {
+  margin: 0;
+}
+.costEffectiveWithoutCuttinContainer {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.textFourth1 {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.showers,
+.textFourth {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textFourth {
+  flex: 1;
+  overflow-x: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  gap: 20px 0;
+  min-width: 432px;
+}
+.showers {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-15xl);
+  gap: 0 131px;
+}
+.material,
+.material1,
+.strategicChoice {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.strategicChoice {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+}
+.material,
+.material1 {
+  align-items: flex-start;
+}
+.material1 {
+  flex: 1;
+  flex-direction: column;
+}
+.material {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1150px) {
+  .bath51Icon,
+  .photo {
+    flex: 1;
+  }
+  .showers {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .materialAndMethod {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .photo,
+  .textFourth {
+    min-width: 100%;
+  }
+  .showers {
+    gap: 0 131px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .materialAndMethod {
+    font-size: var(--footer-bold-text-size);
+  }
+  .costSavingInnovations,
+  .efficiencyWithoutCompromise,
+  .expertiseMeetsInnovation,
+  .localExpertiseGlobal,
+  .materialOptimization {
+    font-size: var(--font-size-lgi);
+  }
+  .showers {
+    gap: 0 131px;
+  }
+}

@@ -1,0 +1,553 @@
+.adobestock646941552411 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.adobeStockRectangle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.custom,
+.staircases {
+  margin: 0;
+}
+.customStaircases,
+.uniqueService {
+  position: absolute;
+  margin: 0 !important;
+  left: calc(50% - 502px);
+  text-shadow: var(--text-shadow-blur);
+  z-index: 1;
+}
+.customStaircases {
+  top: 256px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.uniqueService {
+  width: 199px;
+  top: 85px;
+  font-size: var(--footer-bold-text-size);
+  display: inline-block;
+}
+.horizontalLineIcon,
+.vecticalLineIcon {
+  width: 8px;
+  height: 128px;
+  position: absolute;
+  margin: 0 !important;
+  top: 266px;
+  left: 200px;
+  z-index: 1;
+}
+.horizontalLineIcon {
+  width: 128px;
+  height: 0;
+  top: 99px;
+  left: 76px;
+  object-fit: contain;
+}
+.photoHolderAbsText,
+.staircasesHeroSection {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.photoHolderAbsText {
+  position: relative;
+  gap: 10px 0;
+}
+.staircasesHeroSection {
+  background-color: var(--white);
+  text-align: left;
+  font-size: var(--size-size);
+  color: var(--white);
+  font-family: var(--footer-bold-text);
+}
+.buildingsService {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.staircasesByDesign {
+  position: relative;
+  font-size: var(--heading-h3-size);
+  display: inline-block;
+  max-width: 100%;
+}
+.collaborateWithBuilding {
+  width: 544px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  white-space: pre-wrap;
+  text-align: justify;
+  display: inline-block;
+}
+.textBox {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+  cursor: pointer;
+}
+.serviceOverview {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+}
+.allText {
+  width: 572px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-sm);
+  box-sizing: border-box;
+  gap: 140px 0;
+  min-width: 572px;
+  max-width: 100%;
+}
+.adobestock47148588611 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.photo,
+.staircaseDesign {
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.photo {
+  height: 436px;
+  width: 654px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 654px;
+}
+.staircaseDesign {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-37xl) var(--padding-30xl);
+  box-sizing: border-box;
+  gap: 0 36px;
+  text-align: left;
+  font-size: var(--footer-further-page-link-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.craftingIntegratedStaircase,
+.solutionsToAscend {
+  margin: 0;
+}
+.craftingIntegratedStaircaseContainer,
+.elevateYourSpace {
+  width: 641px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.elevateYourSpace {
+  width: 580px;
+  font-size: var(--footer-bold-text-size);
+  min-width: 580px;
+}
+.adobestock639370636311,
+.textArea {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+}
+.textArea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-9xl) 92px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.adobestock639370636311 {
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.craftingStaircases,
+.photoHolder {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.craftingStaircases {
+  background-color: var(--white);
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-13xl);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.ascentToElegance,
+.whereStaircasesMeet {
+  margin: 0;
+}
+.ascentToEleganceContainer,
+.text {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ascentToEleganceContainer {
+  width: 622px;
+  position: relative;
+  display: inline-block;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.text {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  text-align: center;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.customizableOptions {
+  position: relative;
+  font-weight: 500;
+}
+.closedRiserStaircases {
+  position: relative;
+  font-size: var(--heading-h3-size);
+  display: inline-block;
+  max-width: 100%;
+}
+.meticulouslyCraftedThese {
+  width: 508px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.customizableOptionsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: 19px 0;
+  min-width: 508px;
+  max-width: 100%;
+}
+.closeRiserStaircasesChild {
+  height: 592px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 422px;
+}
+.closeRiserStaircases {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-48xl);
+  box-sizing: border-box;
+  gap: 0 145px;
+  min-height: 702px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.apartmentBuildingStaircases1 {
+  position: relative;
+}
+.apartmentBuildingStaircasesWrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-31xl) 100px;
+}
+.framesIcon,
+.framesIcon1,
+.framesIcon2,
+.framesIcon3 {
+  width: 504px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.apartmentBuildingStaircases,
+.framesParent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.framesParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-101xl);
+  gap: 52px 80px;
+  min-height: 580px;
+}
+.apartmentBuildingStaircases {
+  background-color: var(--white);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-41xl);
+  text-align: center;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.areYouReady,
+.embarkOnA {
+  margin: 0;
+}
+.embarkOnAContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  cursor: pointer;
+}
+.cta,
+.staircasesPages {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.cta {
+  align-self: stretch;
+  background-color: var(--color-sandybrown);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-19xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--size-size);
+  color: var(--white);
+  font-family: var(--footer-bold-text);
+}
+.staircasesPages {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .allText {
+    flex: 1;
+  }
+  .adobestock47148588611 {
+    align-self: stretch;
+    width: auto;
+  }
+  .photo {
+    flex: 1;
+  }
+  .staircaseDesign {
+    flex-wrap: wrap;
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .elevateYourSpace {
+    flex: 1;
+  }
+  .textArea {
+    flex-wrap: wrap;
+    padding-left: var(--padding-27xl);
+    padding-right: var(--padding-27xl);
+    box-sizing: border-box;
+  }
+  .framesParent {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .customizableOptionsParent {
+    flex: 1;
+  }
+  .closeRiserStaircases {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .customStaircases {
+    font-size: var(--font-size-32xl);
+  }
+  .staircasesByDesign {
+    font-size: var(--font-size-13xl);
+  }
+  .allText {
+    gap: 140px 0;
+  }
+  .allText,
+  .photo {
+    min-width: 100%;
+  }
+  .staircaseDesign {
+    gap: 0 36px;
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .craftingIntegratedStaircaseContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .elevateYourSpace {
+    min-width: 100%;
+  }
+  .textArea {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .ascentToEleganceContainer,
+  .closedRiserStaircases {
+    font-size: var(--font-size-13xl);
+  }
+  .closeRiserStaircasesChild,
+  .customizableOptionsParent {
+    min-width: 100%;
+  }
+  .closeRiserStaircases {
+    gap: 0 145px;
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .apartmentBuildingStaircases1 {
+    font-size: var(--font-size-13xl);
+  }
+  .apartmentBuildingStaircasesWrapper,
+  .framesParent {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .framesParent {
+    gap: 52px 80px;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+  }
+  .apartmentBuildingStaircases {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .embarkOnAContainer {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .customStaircases {
+    font-size: var(--font-size-19xl);
+  }
+  .uniqueService {
+    font-size: var(--font-size-lgi);
+  }
+  .buildingsService {
+    font-size: var(--text-regular-normal-size);
+  }
+  .staircasesByDesign {
+    font-size: var(--footer-bold-text-size);
+  }
+  .allText {
+    gap: 140px 0;
+  }
+  .craftingIntegratedStaircaseContainer,
+  .elevateYourSpace {
+    font-size: var(--font-size-lgi);
+  }
+  .ascentToEleganceContainer {
+    font-size: var(--footer-bold-text-size);
+  }
+  .customizableOptions {
+    font-size: var(--font-size-lgi);
+  }
+  .closedRiserStaircases {
+    font-size: var(--footer-bold-text-size);
+  }
+  .closeRiserStaircases {
+    gap: 0 145px;
+  }
+  .apartmentBuildingStaircases1 {
+    font-size: var(--footer-bold-text-size);
+  }
+  .apartmentBuildingStaircasesWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .framesParent {
+    gap: 52px 80px;
+  }
+  .apartmentBuildingStaircases {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .embarkOnAContainer {
+    font-size: var(--font-size-19xl);
+  }
+}

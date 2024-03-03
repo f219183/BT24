@@ -1,0 +1,96 @@
+.photoPlaceholderIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.conceptual,
+.design,
+.modelling {
+  margin: 0;
+}
+.design {
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.mainText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 var(--padding-8xs);
+  cursor: pointer;
+}
+.aVirtualCanvas {
+  height: 115px;
+  width: 285px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.paragraph {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+  text-align: justify;
+  font-size: var(--text-regular-normal-size);
+}
+.learnMore {
+  position: relative;
+  white-space: nowrap;
+}
+.button,
+.buttonFrame,
+.card {
+  display: flex;
+  align-items: center;
+}
+.button {
+  width: 99px;
+  border-radius: var(--br-mini);
+  border: 2px solid var(--color-sandybrown);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-7xs) 0;
+  gap: var(--gap-3xs);
+}
+.buttonFrame,
+.card {
+  align-self: stretch;
+  flex-direction: column;
+}
+.buttonFrame {
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: var(--padding-6xs) var(--padding-xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-sandybrown);
+}
+.card {
+  width: 305px;
+  border-radius: var(--br-3xs);
+  background-color: var(--kuno-greywhite);
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: 3px 0;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 450px) {
+  .design {
+    font-size: var(--font-size-lgi);
+  }
+}

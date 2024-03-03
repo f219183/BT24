@@ -1,0 +1,759 @@
+.design {
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.buildingTraditionsSignature,
+.design,
+.masteringConstructionDesign {
+  margin: 0;
+}
+.masteringConstructionDesignContainer {
+  margin: 0;
+  width: 727px;
+  position: relative;
+  font-size: var(--heading-h3-size);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.atBuildingTradition,
+.embraceTheFuture,
+.withTheAdded {
+  margin: 0;
+}
+.atBuildingTraditionContainer {
+  width: 727px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.masterDesignFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+}
+.button,
+.emptyFrame {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-7xs) var(--padding-6xs) var(--padding-7xs)
+    var(--padding-3xs);
+  background-color: transparent;
+  width: 93px;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.button1:hover,
+.button:hover {
+  background-color: var(--color-chocolate-200);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.emptyFrame {
+  width: 169px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carpentryStaircasesCasework,
+.conceptualPlanning {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.conceptualPlanning {
+  align-self: stretch;
+  align-items: center;
+  gap: 20px 0;
+}
+.carpentryStaircasesCasework {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  min-width: 473px;
+  max-width: 100%;
+}
+.adobestock47148588611 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.photo {
+  height: 454px;
+  width: 523px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 523px;
+  max-width: 100%;
+}
+.beyondPlanning,
+.mainFrame {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.mainFrame {
+  width: 1382px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-28xl);
+  gap: 0 92px;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.beyondPlanning {
+  margin: 0;
+  width: 987px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.adobestock27854565521 {
+  width: 818px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.photoHolder,
+.textComponentPhotoHolder {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.photoHolder {
+  overflow: hidden;
+  justify-content: center;
+}
+.textComponentPhotoHolder {
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xl);
+  box-sizing: border-box;
+  gap: 27px 0;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.innovativePlanningAnd {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--footer-bold-text-size);
+  font-weight: 700;
+  font-family: inherit;
+}
+.buildingExcellenceTogether,
+.yourVisionOur {
+  margin: 0;
+}
+.yourVisionOurContainer {
+  width: 346px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.beyondAesthetics,
+.shapeFinishAnd,
+.tailoringBeautyWith {
+  margin: 0;
+}
+.beyondAestheticsContainer {
+  width: 346px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.costEffectiveMaterials {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px 0;
+  min-width: 261px;
+  max-width: 100%;
+}
+.strategicMaterial {
+  margin: 0;
+  width: 402px;
+  position: relative;
+  font-size: var(--footer-bold-text-size);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.optimizeCostsEnhance,
+.seamlessIncorporationOf,
+.smartChoicesFor {
+  width: 346px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.qualityWithoutCuttingCorner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px 0;
+  max-width: 100%;
+}
+.solvingLogisticalChallenges {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--footer-bold-text-size);
+  font-weight: 700;
+  font-family: inherit;
+}
+.creativeSolutionsFor {
+  white-space: pre-wrap;
+}
+.adaptableToSiteSpecific,
+.creativeSolutionsFor {
+  width: 346px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.costEffectiveMaterials1,
+.designProjectStaircase {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.costEffectiveMaterials1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 18px 0;
+  min-width: 261px;
+}
+.designProjectStaircase {
+  width: 1280px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-xl) var(--padding-9xl);
+  box-sizing: border-box;
+  gap: 0 17px;
+  text-align: left;
+  font-size: var(--text-regular-normal-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.designProject,
+.staircasesByBuilding {
+  position: relative;
+}
+.designProject {
+  margin: 0;
+  font-size: var(--heading-h3-size);
+  font-weight: 700;
+  font-family: inherit;
+}
+.ensureYourNext {
+  width: 544px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+  max-width: 100%;
+}
+.learnMore1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+}
+.button1 {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-7xs) var(--padding-4xs);
+  background-color: transparent;
+  width: 93px;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonHolder,
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.buttonHolder {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-xl);
+}
+.text {
+  flex: 1;
+  align-items: flex-start;
+  gap: 16px 0;
+  min-width: 423px;
+  max-width: 100%;
+}
+.adobestock471485886111 {
+  align-self: stretch;
+  height: 436px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.designProjectStaircase1,
+.photo1 {
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.photo1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 425px;
+}
+.designProjectStaircase1 {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-37xl) var(--padding-48xl);
+  box-sizing: border-box;
+  gap: 0 1px;
+  text-align: left;
+  font-size: var(--footer-further-page-link-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.materialAndMethod {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-xl);
+  box-sizing: border-box;
+}
+.bath51Icon,
+.photo2,
+.text1 {
+  overflow: hidden;
+  max-width: 100%;
+}
+.bath51Icon {
+  height: 444px;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.photo2 {
+  width: 615px;
+  border-radius: var(--br-3xs);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 615px;
+}
+.costSavingInnovations {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.leveragingTheLatest,
+.reducingCostsWith {
+  margin: 0;
+}
+.leveragingTheLatestContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFourth {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.materialOptimization {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.selectingCostEffectiveMater,
+.tailoredMaterialChoices {
+  margin: 0;
+}
+.selectingCostEffectiveMaterContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFourth1 {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.localExpertiseGlobal {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.customMethodsAnd,
+.maximizeLocalEfficiency {
+  margin: 0;
+}
+.customMethodsAndContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFirst {
+  width: 664px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.expertiseMeetsInnovation {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.cuttingEdgeTechniquesTailo,
+.experienceAndInnovation {
+  margin: 0;
+}
+.experienceAndInnovationContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFirst1 {
+  width: 664px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.efficiencyWithoutCompromise {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.costEffectiveWithoutCuttin,
+.qualityAndValue {
+  margin: 0;
+}
+.costEffectiveWithoutCuttinContainer {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFourth2 {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.contant,
+.materialAndMethodConsiderat,
+.text2 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.text2 {
+  width: 562px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: 18px 0;
+  min-width: 562px;
+}
+.contant,
+.materialAndMethodConsiderat {
+  align-items: center;
+}
+.contant {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  gap: 0 100px;
+  font-size: var(--footer-bold-text-size);
+}
+.materialAndMethodConsiderat {
+  flex: 1;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.materialMethodConsideration {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.unveilingTheFuture {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.atBuildingTradition1 {
+  width: 1288px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.futureOfConstruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-mid);
+  box-sizing: border-box;
+  gap: 30px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.adobestock278545655211 {
+  width: 818px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.constructionDesign,
+.photoHolder1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photoHolder1 {
+  align-self: stretch;
+  justify-content: center;
+  max-width: 100%;
+}
+.constructionDesign {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: 10px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .adobestock47148588611 {
+    align-self: stretch;
+    width: auto;
+  }
+  .photo {
+    flex: 1;
+  }
+  .mainFrame {
+    flex-wrap: wrap;
+  }
+  .bath51Icon,
+  .photo2,
+  .text2 {
+    flex: 1;
+  }
+  .contant {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .masteringConstructionDesignContainer {
+    font-size: var(--font-size-13xl);
+  }
+  .carpentryStaircasesCasework,
+  .photo {
+    min-width: 100%;
+  }
+  .mainFrame {
+    gap: 0 92px;
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .beyondPlanning,
+  .designProject {
+    font-size: var(--font-size-13xl);
+  }
+  .photo1,
+  .text {
+    min-width: 100%;
+  }
+  .designProjectStaircase1 {
+    padding: var(--padding-17xl) var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .materialAndMethod {
+    font-size: var(--font-size-13xl);
+  }
+  .photo2,
+  .text2 {
+    min-width: 100%;
+  }
+  .contant {
+    gap: 0 100px;
+  }
+  .unveilingTheFuture {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .design {
+    font-size: var(--font-size-lgi);
+  }
+  .masteringConstructionDesignContainer {
+    font-size: var(--footer-bold-text-size);
+  }
+  .mainFrame {
+    gap: 0 92px;
+  }
+  .beyondPlanning {
+    font-size: var(--footer-bold-text-size);
+  }
+  .innovativePlanningAnd,
+  .solvingLogisticalChallenges,
+  .strategicMaterial {
+    font-size: var(--font-size-lgi);
+  }
+  .staircasesByBuilding {
+    font-size: var(--text-regular-normal-size);
+  }
+  .designProject,
+  .materialAndMethod {
+    font-size: var(--footer-bold-text-size);
+  }
+  .costSavingInnovations,
+  .efficiencyWithoutCompromise,
+  .expertiseMeetsInnovation,
+  .localExpertiseGlobal,
+  .materialOptimization {
+    font-size: var(--font-size-lgi);
+  }
+  .contant {
+    gap: 0 100px;
+  }
+  .unveilingTheFuture {
+    font-size: var(--footer-bold-text-size);
+  }
+}

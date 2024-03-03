@@ -1,0 +1,170 @@
+.ascentToElegance {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.title {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-195xl);
+}
+.buildingService {
+  position: relative;
+  font-weight: 500;
+}
+.staircaseByDesign {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-h3-size);
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+}
+.collaborateWithBuilding,
+.itsACommitment {
+  margin: 0;
+}
+.collaborateWithBuildingContainer {
+  width: 565px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  display: inline-block;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+  white-space: nowrap;
+}
+.button,
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-7xs) var(--padding-4xs);
+  background-color: transparent;
+  width: 99px;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-chocolate-200);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.buttonWrapper {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.photoHolderIcon,
+.text {
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.text {
+  width: 565px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+  gap: 14px 0;
+  min-width: 565px;
+}
+.photoHolderIcon {
+  width: 604px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ascentToEleganceWhereSta,
+.body {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.body {
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-51xl);
+  gap: 0 45px;
+  font-size: var(--footer-further-page-link-size);
+}
+.ascentToEleganceWhereSta {
+  background-color: var(--white);
+  flex-direction: column;
+  padding: 0 0 var(--padding-3xs);
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1275px) {
+  .photoHolderIcon,
+  .text {
+    flex: 1;
+  }
+  .body {
+    flex-wrap: wrap;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ascentToElegance {
+    font-size: var(--font-size-13xl);
+  }
+  .title {
+    padding-left: var(--padding-88xl);
+    padding-right: var(--padding-88xl);
+    box-sizing: border-box;
+  }
+  .staircaseByDesign {
+    font-size: var(--font-size-13xl);
+  }
+  .text {
+    min-width: 100%;
+  }
+  .body {
+    gap: 0 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ascentToElegance {
+    font-size: var(--footer-bold-text-size);
+  }
+  .title {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .buildingService {
+    font-size: var(--text-regular-normal-size);
+  }
+  .staircaseByDesign {
+    font-size: var(--footer-bold-text-size);
+  }
+}

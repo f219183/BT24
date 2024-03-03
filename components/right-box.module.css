@@ -1,0 +1,173 @@
+.everyHomeIs,
+.tailoredDesignProcess {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.tailoredDesignProcess {
+  margin: 0;
+  width: 402px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.everyHomeIs {
+  width: 390px;
+  flex-shrink: 0;
+}
+.frameStayInformedAndInvolv,
+.leftBox {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameStayInformedAndInvolv {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: var(--footer-bold-text-size);
+}
+.leftBox {
+  width: 418px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px 0;
+}
+.expertCraftsmanship,
+.withDecadesOf {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.expertCraftsmanship {
+  margin: 0;
+  width: 402px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.withDecadesOf {
+  width: 383px;
+  flex-shrink: 0;
+}
+.middleBox,
+.withDecadesOfExperienceOuWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.withDecadesOfExperienceOuWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: var(--footer-bold-text-size);
+}
+.middleBox {
+  width: 420px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px 0;
+}
+.stayInformedAnd,
+.transparentCommunication {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.transparentCommunication {
+  margin: 0;
+  width: 402px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.stayInformedAnd {
+  width: 378px;
+  flex-shrink: 0;
+}
+.rightBox1,
+.stayInformedAndInvolvedAtWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.stayInformedAndInvolvedAtWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: var(--footer-bold-text-size);
+}
+.rightBox1 {
+  width: 418px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px 0;
+}
+.boxcontainer,
+.rightBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.boxcontainer {
+  flex: 1;
+  background-color: var(--white);
+  justify-content: center;
+  padding: var(--padding-9xl) var(--padding-xl);
+  row-gap: 20px;
+}
+.rightBox {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1350px) {
+  .boxcontainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .expertCraftsmanship,
+  .tailoredDesignProcess,
+  .transparentCommunication {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .tailoredDesignProcess {
+    font-size: var(--footer-bold-text-size);
+  }
+  .everyHomeIs {
+    font-size: var(--font-size-lgi);
+  }
+  .expertCraftsmanship {
+    font-size: var(--footer-bold-text-size);
+  }
+  .withDecadesOf {
+    font-size: var(--font-size-lgi);
+  }
+  .transparentCommunication {
+    font-size: var(--footer-bold-text-size);
+  }
+  .stayInformedAnd {
+    font-size: var(--font-size-lgi);
+  }
+}

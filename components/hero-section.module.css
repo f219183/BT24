@@ -1,0 +1,162 @@
+.pioneeringInnovationCraftin {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.blendingRevolutionaryTechnol,
+.sectorsToBring {
+  margin: 0;
+}
+.blendingRevolutionaryTechnolContainer {
+  position: relative;
+  font-size: var(--footer-further-page-link-size);
+  font-weight: 500;
+  color: var(--font);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.photoPlaceholderIcon,
+.titleSection1 {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+}
+.titleSection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 7px 0;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.photoPlaceholderIcon {
+  height: 285px;
+  position: relative;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.design {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.mainText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 var(--padding-8xs);
+}
+.excellenceInOur {
+  margin: 0;
+}
+.aVirtualCanvasContainer {
+  height: 115px;
+  width: 285px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.paragraph {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+  text-align: justify;
+  font-size: var(--text-regular-normal-size);
+}
+.learnMore {
+  position: relative;
+  white-space: nowrap;
+}
+.button {
+  width: 99px;
+  border-radius: var(--br-mini);
+  border: 2px solid var(--color-sandybrown);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-7xs) 0;
+  gap: var(--gap-3xs);
+}
+.buttonFrame,
+.caseworkCard {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonFrame {
+  justify-content: flex-end;
+  padding: var(--padding-6xs) var(--padding-xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-sandybrown);
+}
+.caseworkCard {
+  width: 305px;
+  border-radius: var(--br-3xs);
+  background-color: var(--kuno-greywhite);
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: 3px 0;
+}
+.cardsSections1,
+.heroSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardsSections1 {
+  width: 1440px;
+  height: 551px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-27xl) var(--padding-5xl)
+    var(--padding-47xl);
+  box-sizing: border-box;
+  gap: 0 36px;
+}
+.heroSection {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 750px) {
+  .cardsSections1 {
+    gap: 0 36px;
+    padding: var(--padding-xl) var(--padding-4xl) var(--padding-xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .design {
+    font-size: var(--font-size-lgi);
+  }
+}

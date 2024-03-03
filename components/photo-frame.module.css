@@ -1,0 +1,147 @@
+.additionRenovations,
+.carpentry {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.carpentry {
+  font-size: inherit;
+  font-weight: 400;
+}
+.additionRenovations {
+  width: 637px;
+  font-size: var(--heading-h3-size);
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+}
+.craftingYourDream {
+  width: 651px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  display: inline-block;
+}
+.cardSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+  white-space: nowrap;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-7xs) var(--padding-6xs) var(--padding-7xs)
+    var(--padding-3xs);
+  background-color: transparent;
+  width: 99px;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-chocolate-200);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.footerTextSection,
+.titleSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.titleSection {
+  align-self: stretch;
+  align-items: center;
+  gap: 28px 0;
+}
+.footerTextSection {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  min-width: 423px;
+}
+.adobestock47148588611 {
+  align-self: stretch;
+  height: 430px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.photo,
+.photoFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.photo {
+  height: 431px;
+  width: 618px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url(/adobestock-471485886-1-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 618px;
+}
+.photoFrame {
+  width: 1322px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 0 13px;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1150px) {
+  .photo {
+    flex: 1;
+  }
+  .photoFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .additionRenovations {
+    font-size: var(--font-size-13xl);
+  }
+  .footerTextSection,
+  .photo {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .carpentry {
+    font-size: var(--font-size-lgi);
+  }
+  .additionRenovations {
+    font-size: var(--footer-bold-text-size);
+  }
+}

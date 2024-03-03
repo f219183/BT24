@@ -1,0 +1,67 @@
+.design,
+.photoPlaceholderIcon {
+  position: relative;
+  max-width: 100%;
+}
+.photoPlaceholderIcon {
+  align-self: stretch;
+  height: 285px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.design {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.mainText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aVirtualCanvas {
+  height: 114px;
+  width: 306px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cardWithoutButton,
+.paragraph {
+  display: flex;
+  align-items: flex-start;
+}
+.paragraph {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--text-regular-normal-size);
+}
+.cardWithoutButton {
+  border-radius: var(--br-3xs);
+  background-color: var(--kuno-greywhite);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 450px) {
+  .design {
+    font-size: var(--font-size-lgi);
+  }
+}

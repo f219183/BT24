@@ -1,0 +1,449 @@
+.customCasework {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.transform {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.elevateYourLifestyle,
+.exploreEndlessPossibilities {
+  margin: 0;
+}
+.transformYourHomeContainer {
+  width: 544px;
+  height: 144px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.photoIcon {
+  height: 436px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 335px;
+}
+.bathroomsCarpentry {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-37xl) var(--padding-54xl) var(--padding-37xl)
+    var(--padding-48xl);
+  box-sizing: border-box;
+  gap: 50px 102px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.photoIcon1 {
+  height: 436px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 335px;
+}
+.experienceThePinnacle {
+  margin: 0;
+  width: 577px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.withOurCustomizable {
+  width: 544px;
+  height: 108px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+  max-width: 100%;
+}
+.bathroomsCarpentry1,
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.bathroomsCarpentry1 {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-37xl) var(--padding-54xl) var(--padding-37xl)
+    var(--padding-48xl);
+  box-sizing: border-box;
+  gap: 50px 69px;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.adobestock47148588611 {
+  width: 654px;
+  height: 436px;
+  position: relative;
+  object-fit: cover;
+  max-width: 104%;
+  flex-shrink: 0;
+}
+.photo {
+  height: 418px;
+  width: 626px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.adobestock471485886111 {
+  width: 654px;
+  height: 436px;
+  position: relative;
+  object-fit: cover;
+  max-width: 104%;
+  flex-shrink: 0;
+}
+.bathroomsCarpentry2,
+.photo1 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.photo1 {
+  height: 418px;
+  width: 626px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bathroomsCarpentry2 {
+  background-color: var(--white);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-37xl) var(--padding-54xl) var(--padding-37xl)
+    var(--padding-48xl);
+  box-sizing: border-box;
+  gap: 50px 48px;
+}
+.woodenMarvels {
+  width: 1245px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -560px;
+  font-weight: 500;
+  display: inline-block;
+}
+.millworkInlays,
+.text3 {
+  position: relative;
+  max-width: 100%;
+}
+.millworkInlays {
+  margin: 0;
+  width: 565px;
+  font-size: var(--heading-h3-size);
+  font-weight: 700;
+  font-family: inherit;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.text3 {
+  width: 685px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 10px;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+  white-space: nowrap;
+}
+.button,
+.text2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-mini) var(--padding-19xl) var(--padding-base)
+    var(--padding-23xl);
+  background-color: transparent;
+  width: 188px;
+  border-radius: var(--br-mini);
+  flex-shrink: 0;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-chocolate-200);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.text2 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--padding-3xs) 105px var(--padding-3xs) 97px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: justify;
+  font-size: var(--footer-further-page-link-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.adobestock471485886112 {
+  width: 654px;
+  height: 436px;
+  position: relative;
+  object-fit: cover;
+  max-width: 104%;
+  flex-shrink: 0;
+}
+.photo2 {
+  height: 418px;
+  width: 626px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.adobestock471485886113 {
+  width: 654px;
+  height: 436px;
+  position: relative;
+  object-fit: cover;
+  max-width: 104%;
+  flex-shrink: 0;
+}
+.bathroomsCarpentry3,
+.photo3 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.photo3 {
+  height: 418px;
+  width: 626px;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.bathroomsCarpentry3 {
+  background-color: var(--white);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-37xl) var(--padding-54xl) var(--padding-37xl)
+    var(--padding-48xl);
+  box-sizing: border-box;
+  gap: 50px 48px;
+}
+.contactWithUs,
+.getStartedToday {
+  width: 328px;
+  position: relative;
+  display: inline-block;
+  min-width: 131px;
+  max-width: 100%;
+}
+.getStartedToday {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+}
+.contactWithUs {
+  font-size: var(--footer-bold-text-size);
+}
+.contactUsNow {
+  position: relative;
+  font-size: var(--heading-h3-size);
+  font-family: var(--footer-bold-text);
+  color: var(--white);
+  text-align: center;
+  cursor: pointer;
+}
+.contactUsNowButton {
+  cursor: pointer;
+  border: 1px solid var(--white);
+  padding: var(--padding-3xs) var(--padding-7xs);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.contactUsNowButton:hover {
+  background-color: rgba(230, 230, 230, 0.09);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.caseworkPage,
+.cta {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.cta {
+  align-self: stretch;
+  background-color: var(--color-sandybrown);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-19xl) 215px var(--padding-19xl) 205px;
+  box-sizing: border-box;
+  gap: 22px 17.95px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--size-size);
+  color: var(--white);
+  font-family: var(--footer-bold-text);
+}
+.caseworkPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  flex-direction: column;
+  align-items: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .bathroomsCarpentry,
+  .bathroomsCarpentry1 {
+    gap: 50px 102px;
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .bathroomsCarpentry1 {
+    gap: 50px 69px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .customCasework,
+  .experienceThePinnacle,
+  .millworkInlays {
+    font-size: var(--font-size-13xl);
+  }
+  .getStartedToday {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .bathroomsCarpentry,
+  .bathroomsCarpentry1 {
+    gap: 50px 102px;
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .bathroomsCarpentry1 {
+    gap: 50px 69px;
+  }
+  .bathroomsCarpentry2 {
+    gap: 50px 48px;
+    padding: var(--padding-17xl) var(--padding-17xl) var(--padding-17xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .text2 {
+    padding-left: var(--padding-29xl);
+    padding-right: 52px;
+    box-sizing: border-box;
+  }
+  .bathroomsCarpentry3 {
+    gap: 50px 48px;
+    padding: var(--padding-17xl) var(--padding-17xl) var(--padding-17xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .cta {
+    padding-left: 102px;
+    padding-right: var(--padding-88xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .customCasework,
+  .experienceThePinnacle {
+    font-size: var(--footer-bold-text-size);
+  }
+  .woodenMarvels {
+    font-size: var(--text-regular-normal-size);
+  }
+  .millworkInlays {
+    font-size: var(--footer-bold-text-size);
+  }
+  .text2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .getStartedToday {
+    font-size: var(--font-size-19xl);
+  }
+  .contactWithUs {
+    font-size: var(--font-size-lgi);
+  }
+  .cta {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

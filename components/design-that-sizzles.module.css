@@ -1,0 +1,156 @@
+.designsThatSizzle,
+.kitchensThatShine {
+  margin: 0;
+}
+.designsThatSizzleContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.designsThatSizzleKitchensWrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.embraceTheFuture,
+.innovativeDesign1 {
+  position: relative;
+  display: inline-block;
+}
+.innovativeDesign1 {
+  margin: 0;
+  width: 216px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.embraceTheFuture {
+  width: 292px;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.innovativeDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.customizedCreations1 {
+  margin: 0;
+  width: 263px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.tailoredToYour {
+  width: 292px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.customizedCreations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.timelessAppeal1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.withAFocus {
+  width: 292px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.timelessAppeal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.innovativeDesignParent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-118xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+}
+.adobestock8930896311 {
+  width: 768px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  cursor: pointer;
+}
+.designThatSizzles,
+.photoHolder {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.designThatSizzles {
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1275px) {
+  .innovativeDesignParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .designsThatSizzleContainer {
+    font-size: var(--font-size-13xl);
+  }
+  .innovativeDesignParent {
+    padding-left: var(--padding-49xl);
+    padding-right: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .designsThatSizzleContainer {
+    font-size: var(--footer-bold-text-size);
+  }
+  .customizedCreations1,
+  .innovativeDesign1,
+  .timelessAppeal1 {
+    font-size: var(--font-size-lgi);
+  }
+  .innovativeDesignParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

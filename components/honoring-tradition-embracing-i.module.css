@@ -1,0 +1,111 @@
+.honoringTraditionEmbracing {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.cardsSections2,
+.titleSection2 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.titleSection2 {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-302xl);
+}
+.cardsSections2 {
+  width: 1440px;
+  overflow-x: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-121xl) 0 var(--padding-120xl);
+  gap: 0 60px;
+  font-size: var(--footer-bold-text-size);
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+  white-space: nowrap;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-7xs) var(--padding-4xs);
+  background-color: transparent;
+  width: 99px;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-chocolate-200);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.honoringTraditionEmbracingI,
+.readMoreButton {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.readMoreButton {
+  background-color: var(--white);
+  align-items: center;
+  padding: var(--padding-xl);
+}
+.honoringTraditionEmbracingI {
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 750px) {
+  .honoringTraditionEmbracing {
+    font-size: var(--font-size-13xl);
+  }
+  .cardsSections2,
+  .titleSection2 {
+    padding-left: var(--padding-141xl);
+    padding-right: var(--padding-141xl);
+    box-sizing: border-box;
+  }
+  .cardsSections2 {
+    gap: 0 60px;
+    padding-left: var(--padding-50xl);
+    padding-right: var(--padding-51xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .honoringTraditionEmbracing {
+    font-size: var(--footer-bold-text-size);
+  }
+  .cardsSections2,
+  .titleSection2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cardsSections2 {
+    gap: 0 60px;
+  }
+}

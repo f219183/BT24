@@ -1,0 +1,89 @@
+.honoringTraditionEmbracing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.titleSection2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-21xl) var(--padding-307xl);
+}
+.cardsSections2,
+.honoringMessage,
+.honoringTraditionEmbracingI {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardsSections2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: grid;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-120xl);
+  box-sizing: border-box;
+  gap: 0 60px;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  font-size: var(--footer-bold-text-size);
+}
+.honoringMessage,
+.honoringTraditionEmbracingI {
+  display: flex;
+}
+.honoringTraditionEmbracingI {
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+}
+.honoringMessage {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-10xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1150px) {
+  .cardsSections2 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(260px, 451px));
+  }
+}
+@media screen and (max-width: 800px) {
+  .honoringTraditionEmbracing {
+    font-size: var(--font-size-13xl);
+  }
+  .titleSection2 {
+    padding-left: var(--padding-144xl);
+    padding-right: var(--padding-144xl);
+    box-sizing: border-box;
+  }
+  .cardsSections2 {
+    gap: 0 60px;
+    padding: var(--padding-xl) var(--padding-50xl);
+    box-sizing: border-box;
+    grid-template-columns: minmax(260px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .honoringTraditionEmbracing {
+    font-size: var(--footer-bold-text-size);
+  }
+  .cardsSections2,
+  .titleSection2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cardsSections2 {
+    gap: 0 60px;
+  }
+}

@@ -1,0 +1,99 @@
+.designConceptualModelling {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+  white-space: nowrap;
+}
+.button,
+.titileAndButton {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-7xs) var(--padding-5xs);
+  background-color: transparent;
+  width: 99px;
+  border-radius: var(--br-mini);
+  flex-direction: row;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-chocolate-200);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.titileAndButton {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  gap: 10px 0;
+  max-width: 100%;
+}
+.designConceptual1,
+.vectorIcon {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.designConceptual1 {
+  width: 886px;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  cursor: pointer;
+}
+.vectorIcon {
+  width: 344px;
+  z-index: 1;
+  margin-top: -339px;
+}
+.conceptualModellingPlannin,
+.photoHolder {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.photoHolder {
+  height: 404px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.conceptualModellingPlannin {
+  background-color: var(--white);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 750px) {
+  .designConceptualModelling {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .designConceptualModelling {
+    font-size: var(--footer-bold-text-size);
+  }
+}

@@ -1,0 +1,131 @@
+.bathroomRenovations,
+.carpentry {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.carpentry {
+  font-size: inherit;
+  font-weight: 400;
+}
+.bathroomRenovations {
+  font-size: var(--heading-h3-size);
+  font-weight: 700;
+}
+.bathroomRenoText,
+.cardSectionFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardSectionFrame {
+  width: 1320px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) var(--padding-10xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.readyToTransform {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.learnMore,
+.withOurExpertise {
+  position: relative;
+  font-weight: 500;
+}
+.withOurExpertise {
+  margin: 0;
+  width: 960px;
+  font-size: var(--footer-bold-text-size);
+  font-family: inherit;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.learnMore {
+  font-size: var(--font-size-17xl);
+  font-family: var(--footer-bold-text);
+  color: var(--kuno-red);
+  text-align: left;
+}
+.additionRenovations,
+.button,
+.newCta {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-6xs) var(--padding-6xs) var(--padding-5xs);
+  background-color: var(--white);
+  width: 212px;
+  border-radius: var(--br-mini);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.additionRenovations,
+.newCta {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.newCta {
+  align-self: stretch;
+  background-color: var(--color-sandybrown);
+  padding: var(--padding-26xl) var(--padding-2xl) var(--padding-26xl)
+    var(--padding-xl);
+  gap: 30px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--size-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.additionRenovations {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  padding: var(--padding-xl) 0 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 800px) {
+  .bathroomRenovations {
+    font-size: var(--font-size-13xl);
+  }
+  .readyToTransform {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .carpentry {
+    font-size: var(--font-size-lgi);
+  }
+  .bathroomRenovations {
+    font-size: var(--footer-bold-text-size);
+  }
+  .readyToTransform {
+    font-size: var(--font-size-19xl);
+  }
+  .withOurExpertise {
+    font-size: var(--font-size-lgi);
+  }
+}

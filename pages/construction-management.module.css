@@ -1,0 +1,629 @@
+.buildingTraditions,
+.elevateYourProject {
+  margin: 0;
+}
+.elevateYourProjectContainer {
+  width: 351px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.constructionManagement1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-h3-size);
+  font-weight: 700;
+  font-family: inherit;
+}
+.constructionHub,
+.frameD {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameD {
+  width: 727px;
+  flex-direction: column;
+  gap: 8px 0;
+}
+.constructionHub {
+  width: 1298px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--footer-further-page-link-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.bath51 {
+  margin-top: -14px;
+  margin-bottom: -13px;
+  height: 598px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.designElementFrame,
+.photo {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.photo {
+  height: 571px;
+  width: 571px;
+  border-radius: var(--br-3xs);
+  background-color: #eaeaea;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.designElementFrame {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.design {
+  margin: 0;
+  width: 95px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.qualityControlFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 46px 0;
+  min-width: 574px;
+  max-width: 100%;
+}
+.experienceExcellenceIn {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.streamliningYourProject {
+  width: 664px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.text1,
+.textFirst {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textFirst {
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.text1 {
+  justify-content: center;
+}
+.collaborateWithThe,
+.weEnsureThe {
+  width: 664px;
+  position: relative;
+  display: inline-block;
+}
+.collaborateWithThe {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.weEnsureThe {
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFirst1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.saveYourProject {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.ourExperiencedTeam {
+  width: 664px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+}
+.text,
+.textFirst2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.text {
+  justify-content: center;
+  gap: 50px 0;
+}
+.tradesCollaborationFrame,
+.upperNavbarFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.upperNavbarFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 432px;
+  min-height: 415px;
+}
+.tradesCollaborationFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 101px;
+}
+.unlockTheFull {
+  margin: 0;
+  width: 846px;
+  position: relative;
+  font-size: var(--heading-h3-size);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.discoverTheDifference,
+.maximizeTheEfficiency {
+  margin: 0;
+}
+.maximizeTheEfficiencyContainer {
+  width: 1120px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.frameContainer,
+.frameRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameRow {
+  flex: 1;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.frameContainer {
+  width: 1341px;
+  flex-direction: row;
+  padding: 0 2px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.yourPartnerFor {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.trustUsHandle {
+  width: 622px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+  max-width: 100%;
+}
+.text3,
+.textFirst3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textFirst3 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 100%;
+}
+.text3 {
+  width: 664px;
+  justify-content: center;
+  max-width: 106%;
+  flex-shrink: 0;
+}
+.investInPeace {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.cuttingEdgeRestAssured,
+.experienceAndInnovation {
+  margin: 0;
+}
+.experienceAndInnovationContainer {
+  width: 616px;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+  display: inline-block;
+  max-width: 100%;
+}
+.textFirst4 {
+  width: 664px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 106%;
+  flex-shrink: 0;
+}
+.seamlessSolutions {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.letUsStreamline,
+.noProjectIs {
+  margin: 0;
+}
+.noProjectIsContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.text2,
+.textSecond {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textSecond {
+  width: 664px;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 106%;
+  flex-shrink: 0;
+}
+.text2 {
+  width: 626px;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: 50px 0;
+  min-width: 626px;
+  max-width: 100%;
+}
+.bath51Icon {
+  height: 398px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.photo1,
+.yourPartnerForProjectSucce {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.photo1 {
+  width: 673px;
+  border-radius: var(--br-3xs);
+  flex-shrink: 0;
+  justify-content: flex-end;
+  min-width: 673px;
+}
+.yourPartnerForProjectSucce {
+  align-self: stretch;
+  background-color: var(--white);
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-31xl);
+  box-sizing: border-box;
+  gap: 0 20px;
+}
+.helicopterLumber1Icon {
+  width: 1082px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.constructionInfo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.understandingConstructionMan {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.understandingHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) var(--padding-3xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--heading-h3-size);
+}
+.involvesDayToDayOperations {
+  align-self: stretch;
+  position: relative;
+  text-align: justify;
+}
+.keyResponsibilitiesOf {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--footer-bold-text-size);
+  font-weight: 700;
+  font-family: inherit;
+}
+.coordinationOfContractors,
+.decisionMakingBasedOn {
+  margin: 0;
+}
+.decisionMakingBasedOnContainer,
+.executionOfDesign {
+  align-self: stretch;
+  position: relative;
+}
+.executionOfDesign {
+  margin: 0;
+  font-size: var(--footer-bold-text-size);
+  font-weight: 700;
+  font-family: inherit;
+  text-align: left;
+}
+.ensuringProperCoordination,
+.translationOfDesign {
+  margin: 0;
+}
+.importanceOfEffective,
+.translationOfDesignContainer {
+  align-self: stretch;
+  position: relative;
+}
+.importanceOfEffective {
+  margin: 0;
+  font-size: var(--footer-bold-text-size);
+  font-weight: 700;
+  font-family: inherit;
+  text-align: left;
+}
+.properSchedulingAnd,
+.strategicPlanningEnsures {
+  margin: 0;
+}
+.properSchedulingAndContainer {
+  align-self: stretch;
+  position: relative;
+}
+.furtherLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+  text-align: justify;
+}
+.understandingCM {
+  width: 1260px;
+  align-items: center;
+  gap: 20px 0;
+  max-width: 100%;
+}
+.constructionManagement,
+.frameSetter,
+.successBase,
+.understandingCM {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameSetter {
+  width: 1320px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 40px 0;
+  max-width: 100%;
+  font-size: var(--text-regular-normal-size);
+}
+.constructionManagement,
+.successBase {
+  align-items: center;
+}
+.successBase {
+  align-self: stretch;
+  gap: 30px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.constructionManagement {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-xs) 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 34px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .bath51Icon,
+  .photo1,
+  .text2 {
+    flex: 1;
+  }
+  .yourPartnerForProjectSucce {
+    flex-wrap: wrap;
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .photo,
+  .qualityControlFrame {
+    flex: 1;
+  }
+  .upperNavbarFrame {
+    min-height: auto;
+  }
+  .tradesCollaborationFrame {
+    flex-wrap: wrap;
+  }
+  .photo1 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .constructionManagement1 {
+    font-size: var(--font-size-13xl);
+  }
+  .qualityControlFrame {
+    gap: 46px 0;
+    min-width: 100%;
+  }
+  .text1 {
+    gap: 68px 0;
+  }
+  .text {
+    gap: 50px 0;
+  }
+  .upperNavbarFrame {
+    min-width: 100%;
+  }
+  .tradesCollaborationFrame {
+    gap: 0 101px;
+  }
+  .unlockTheFull {
+    font-size: var(--font-size-13xl);
+  }
+  .text3 {
+    gap: 68px 0;
+  }
+  .text2 {
+    gap: 50px 0;
+    min-width: 100%;
+  }
+  .understandingConstructionMan {
+    font-size: var(--font-size-13xl);
+  }
+  .frameSetter {
+    gap: 40px 0;
+  }
+  .constructionManagement {
+    gap: 34px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .elevateYourProjectContainer {
+    font-size: var(--text-regular-normal-size);
+  }
+  .constructionManagement1 {
+    font-size: var(--footer-bold-text-size);
+  }
+  .design,
+  .experienceExcellenceIn {
+    font-size: var(--font-size-lgi);
+  }
+  .text1 {
+    gap: 68px 0;
+  }
+  .collaborateWithThe,
+  .saveYourProject {
+    font-size: var(--font-size-lgi);
+  }
+  .tradesCollaborationFrame {
+    gap: 0 101px;
+  }
+  .unlockTheFull {
+    font-size: var(--footer-bold-text-size);
+  }
+  .yourPartnerFor {
+    font-size: var(--font-size-lgi);
+  }
+  .text3 {
+    gap: 68px 0;
+  }
+  .investInPeace,
+  .seamlessSolutions {
+    font-size: var(--font-size-lgi);
+  }
+  .understandingConstructionMan {
+    font-size: var(--footer-bold-text-size);
+  }
+  .executionOfDesign,
+  .importanceOfEffective,
+  .keyResponsibilitiesOf {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,165 @@
+.aboutUs,
+.whereCraftsmanshipMeets {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+}
+.aboutUs {
+  height: 46px;
+  font-size: inherit;
+  font-weight: 700;
+}
+.whereCraftsmanshipMeets {
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+  max-width: 100%;
+}
+.adobestock27854565522,
+.title {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 6px 0;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.adobestock27854565522 {
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aboutusHeroSection,
+.photoHolder {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.photoHolder {
+  width: 1280px;
+  height: 538px;
+  border-radius: var(--br-3xs);
+  flex-shrink: 0;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.aboutusHeroSection {
+  align-self: stretch;
+  background-color: var(--white);
+}
+.caseworkCabinetryAnd,
+.welcomeToBuilding {
+  margin: 0;
+}
+.weCollaborateWith,
+.welcomeToBuildingContainer,
+.whatSetsUs {
+  height: 54px;
+  position: relative;
+  display: inline-block;
+}
+.weCollaborateWith,
+.whatSetsUs {
+  align-self: stretch;
+  height: 36px;
+}
+.yourSatisfactionIs {
+  position: relative;
+  white-space: pre-wrap;
+}
+.reachOutToday {
+  position: relative;
+  font-size: var(--footer-further-page-link-size);
+  display: inline-block;
+  max-width: 100%;
+}
+.textBox,
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textBox {
+  width: 1240px;
+  align-items: flex-start;
+  gap: 24px 0;
+}
+.textContainer {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-29xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: var(--text-regular-normal-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.contactUsNow {
+  margin: 0;
+  height: 46px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+.aboutus,
+.textContainer1 {
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.textContainer1 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  text-align: center;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.aboutus {
+  width: 100%;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .contactUsNow {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .reachOutToday {
+    font-size: var(--text-regular-normal-size);
+  }
+  .textContainer {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .contactUsNow {
+    font-size: var(--footer-bold-text-size);
+  }
+}

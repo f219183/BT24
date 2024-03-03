@@ -1,0 +1,69 @@
+.culinaryHavensFor {
+  width: 319px;
+  position: relative;
+  display: inline-block;
+}
+.leftBox1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--footer-bold-text);
+  color: var(--color-sandybrown);
+  text-align: left;
+}
+.button,
+.leftBox,
+.leftBox2 {
+  display: flex;
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-sandybrown);
+  padding: var(--padding-7xs) var(--padding-5xs);
+  background-color: transparent;
+  width: 93px;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-chocolate-200);
+  border: 2px solid var(--color-chocolate-100);
+  box-sizing: border-box;
+}
+.leftBox,
+.leftBox2 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.leftBox2 {
+  align-self: stretch;
+  overflow: hidden;
+  padding: 0 var(--padding-5xs);
+}
+.leftBox {
+  width: 326px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 450px) {
+  .culinaryHavensFor {
+    font-size: var(--font-size-lgi);
+  }
+  .button {
+    width: calc(100% - 40px);
+  }
+}

@@ -1,0 +1,151 @@
+.carpentry {
+  position: relative;
+}
+.bathrooms,
+.byBuildingTradition {
+  margin: 0;
+}
+.bathroomsByBuildingContainer {
+  width: 406px;
+  position: relative;
+  font-size: var(--heading-h3-size);
+  display: inline-block;
+  max-width: 100%;
+}
+.learnMore {
+  width: 167px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.button,
+.button1 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.button1 {
+  width: 181px;
+  border-radius: var(--br-mini);
+  border: 2px solid var(--color-sandybrown);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-8xs);
+  cursor: pointer;
+}
+.button {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  color: var(--color-sandybrown);
+}
+.dreamDesignBathe {
+  position: relative;
+  font-size: var(--heading-h3-size);
+}
+.text {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  min-width: 420px;
+  max-width: 100%;
+}
+.adobestock47148588611 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bathroomsCarpentry,
+.photo {
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.photo {
+  height: 311px;
+  width: 595px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 595px;
+}
+.bathroomsCarpentry {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-37xl) var(--padding-51xl) var(--padding-37xl)
+    var(--padding-111xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--footer-bold-text-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+@media screen and (max-width: 1225px) {
+  .text {
+    flex: 1;
+  }
+  .adobestock47148588611 {
+    align-self: stretch;
+    width: auto;
+  }
+  .photo {
+    flex: 1;
+  }
+  .bathroomsCarpentry {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .photo {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bathroomsByBuildingContainer,
+  .dreamDesignBathe {
+    font-size: var(--font-size-13xl);
+  }
+  .text {
+    min-width: 100%;
+  }
+  .bathroomsCarpentry {
+    padding-left: var(--padding-46xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .carpentry {
+    font-size: var(--font-size-lgi);
+  }
+  .bathroomsByBuildingContainer {
+    font-size: var(--footer-bold-text-size);
+  }
+  .learnMore {
+    font-size: var(--font-size-lgi);
+  }
+  .dreamDesignBathe {
+    font-size: var(--footer-bold-text-size);
+  }
+  .bathroomsCarpentry {
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}

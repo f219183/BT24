@@ -1,0 +1,297 @@
+.theBuildingTradition {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.adobestock10702882711,
+.title {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-xl);
+  box-sizing: border-box;
+}
+.adobestock10702882711 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  object-fit: cover;
+}
+.photo {
+  height: 519px;
+  width: 740px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 740px;
+  max-width: 100%;
+}
+.initialConsultation {
+  position: relative;
+}
+.textFirst {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-13xl);
+}
+.conceptualModelPlan {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+.designPlanning {
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFirst1 {
+  width: 636px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 100%;
+}
+.constructionDesign {
+  position: relative;
+  cursor: pointer;
+}
+.detailedPlanningAnd {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFirst2 {
+  width: 636px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 100%;
+}
+.constructionManagement {
+  position: relative;
+}
+.precisionLedBuildingWith {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textSecond {
+  width: 636px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 100%;
+}
+.guaranteedServiceContract {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.ourGuaranteedService {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  white-space: pre-wrap;
+  text-align: justify;
+}
+.textThird {
+  width: 642px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+  max-width: 100%;
+}
+.finishingTouches {
+  position: relative;
+  cursor: pointer;
+}
+.customInteriorFinishes {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-normal-size);
+  text-align: justify;
+}
+.textFourth {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px 0;
+}
+.showers,
+.text {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text {
+  width: 693px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  gap: 20px 0;
+  min-width: 693px;
+}
+.showers {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  gap: 0 35px;
+  font-size: var(--footer-bold-text-size);
+}
+.letsCreateSomething {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.title1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.adobestock57537969521 {
+  width: 906px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.imagePlaceHolder {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.readyToGet {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  cursor: pointer;
+}
+.theBuildingTraditionProcess,
+.title2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--kuno-red);
+  font-family: var(--footer-bold-text);
+}
+.title2 {
+  align-items: center;
+  padding: var(--padding-8xl) var(--padding-xl);
+  box-sizing: border-box;
+}
+.theBuildingTraditionProcess {
+  background-color: var(--white);
+  align-items: flex-start;
+}
+@media screen and (max-width: 1350px) {
+  .adobestock10702882711 {
+    align-self: stretch;
+    width: auto;
+  }
+  .photo,
+  .text {
+    flex: 1;
+  }
+  .showers {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .theBuildingTradition {
+    font-size: var(--font-size-13xl);
+  }
+  .photo {
+    min-width: 100%;
+  }
+  .initialConsultation {
+    font-size: var(--font-size-7xl);
+  }
+  .text {
+    min-width: 100%;
+  }
+  .showers {
+    gap: 0 35px;
+  }
+  .letsCreateSomething,
+  .readyToGet {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .theBuildingTradition {
+    font-size: var(--footer-bold-text-size);
+  }
+  .conceptualModelPlan,
+  .constructionDesign,
+  .constructionManagement,
+  .finishingTouches,
+  .guaranteedServiceContract,
+  .initialConsultation {
+    font-size: var(--font-size-lgi);
+  }
+  .letsCreateSomething,
+  .readyToGet {
+    font-size: var(--footer-bold-text-size);
+  }
+}
